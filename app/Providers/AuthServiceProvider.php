@@ -13,14 +13,14 @@ class AuthServiceProvider extends ServiceProvider
      * @var array<class-string, class-string>
      */
     protected $policies = [
-        'App\Models\Role' => 'BalajiDharma\LaravelAdminCore\Policies\RolePolicy',
-        'App\Models\Permission' => 'BalajiDharma\LaravelAdminCore\Policies\PermissionPolicy',
-        'App\Models\User' => 'BalajiDharma\LaravelAdminCore\Policies\UserPolicy',
-        'BalajiDharma\LaravelCategory\Models\Category' => 'BalajiDharma\LaravelAdminCore\Policies\CategoryPolicy',
-        'BalajiDharma\LaravelCategory\Models\CategoryType' => 'BalajiDharma\LaravelAdminCore\Policies\CategoryTypePolicy',
-        'BalajiDharma\LaravelMenu\Models\Menu' => 'BalajiDharma\LaravelAdminCore\Policies\MenuPolicy',
-        'BalajiDharma\LaravelMenu\Models\MenuItem' => 'BalajiDharma\LaravelAdminCore\Policies\MenuItemPolicy',
-        'Plank\Mediable\Media' => 'BalajiDharma\LaravelAdminCore\Policies\MediaPolicy',
+        'App\Models\Role' => 'Akhmad\LaravelAdminCore\Policies\RolePolicy',
+        'App\Models\Permission' => 'Akhmad\LaravelAdminCore\Policies\PermissionPolicy',
+        'App\Models\User' => 'Akhmad\LaravelAdminCore\Policies\UserPolicy',
+        'Akhmad\LaravelCategory\Models\Category' => 'Akhmad\LaravelAdminCore\Policies\CategoryPolicy',
+        'Akhmad\LaravelCategory\Models\CategoryType' => 'Akhmad\LaravelAdminCore\Policies\CategoryTypePolicy',
+        'Akhmad\LaravelMenu\Models\Menu' => 'Akhmad\LaravelAdminCore\Policies\MenuPolicy',
+        'Akhmad\LaravelMenu\Models\MenuItem' => 'Akhmad\LaravelAdminCore\Policies\MenuItemPolicy',
+        'Plank\Mediable\Media' => 'Akhmad\LaravelAdminCore\Policies\MediaPolicy',
     ];
 
     /**

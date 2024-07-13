@@ -3,12 +3,12 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use BalajiDharma\LaravelAdminCore\Actions\Category\CategoryCreateAction;
-use BalajiDharma\LaravelAdminCore\Actions\Category\CategoryUpdateAction;
-use BalajiDharma\LaravelAdminCore\Data\Category\CategoryCreateData;
-use BalajiDharma\LaravelAdminCore\Data\Category\CategoryUpdateData;
-use BalajiDharma\LaravelCategory\Models\Category;
-use BalajiDharma\LaravelCategory\Models\CategoryType;
+use Akhmad\LaravelAdminCore\Actions\Category\CategoryCreateAction;
+use Akhmad\LaravelAdminCore\Actions\Category\CategoryUpdateAction;
+use Akhmad\LaravelAdminCore\Data\Category\CategoryCreateData;
+use Akhmad\LaravelAdminCore\Data\Category\CategoryUpdateData;
+use Akhmad\LaravelCategory\Models\Category;
+use Akhmad\LaravelCategory\Models\CategoryType;
 
 class CategoryController extends Controller
 {
@@ -82,7 +82,7 @@ class CategoryController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \BalajiDharma\LaravelCategory\Models\Category  $typeItem
+     * @param  \Akhmad\LaravelCategory\Models\Category  $typeItem
      * @return \Illuminate\Http\RedirectResponse
      */
     public function destroy(CategoryType $type, Category $item)

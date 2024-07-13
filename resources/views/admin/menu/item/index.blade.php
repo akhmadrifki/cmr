@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    @can('adminCreate', \BalajiDharma\LaravelMenu\Models\MenuItem::class)
+    @can('adminCreate', \Akhmad\LaravelMenu\Models\MenuItem::class)
     <x-admin.add-link href="{{ route('admin.menu.item.create', $menu->id) }}">
         {{ __('Add Menu Item') }}
     </x-admin.add-link>
@@ -37,7 +37,7 @@
                         <x-admin.grid.th>
                             {{ __('Enabled') }}
                         </x-admin.grid.th>
-                        @canany(['adminUpdate', 'adminDelete'], new \BalajiDharma\LaravelMenu\Models\MenuItem)
+                        @canany(['adminUpdate', 'adminDelete'], new \Akhmad\LaravelMenu\Models\MenuItem)
                         <x-admin.grid.th>
                             {{ __('Actions') }}
                         </x-admin.grid.th>

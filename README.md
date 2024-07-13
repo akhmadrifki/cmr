@@ -10,7 +10,7 @@
 - [Laravel 11](https://github.com/laravel/framework)
 - [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
 - [Laravel Breeze](https://github.com/laravel/breeze)
-- [balajidharma/laravel-menu](https://github.com/balajidharma/laravel-menu)
+- [Balajidharma/laravel-menu](https://github.com/balajidharma/laravel-menu)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [daisyUI](https://daisyui.com/)
 
@@ -21,7 +21,7 @@
 - To get started, you need to install [Docker Desktop](https://www.docker.com/products/docker-desktop).
 - You may run the following command in your terminal
 - Windows open WSL2 Linux terminal. [Docker Desktop WSL 2 backend](https://docs.docker.com/desktop/windows/wsl/)
-- `docker run --rm -v "$(pwd)":/opt -w /opt laravelsail/php83-composer:latest bash -c "composer create-project balajidharma/basic-laravel-admin-panel admin-app && cd admin-app && php artisan sail:install --with=mysql,redis,meilisearch,mailpit,selenium"`
+- `docker run --rm -v "$(pwd)":/opt -w /opt laravelsail/php83-composer:latest bash -c "composer create-project Akhmad/basic-laravel-admin-panel admin-app && cd admin-app && php artisan sail:install --with=mysql,redis,meilisearch,mailpit,selenium"`
 - `cd admin-app`
 - `./vendor/bin/sail pull mysql redis meilisearch mailpit selenium`
 - `./vendor/bin/sail build`
@@ -35,7 +35,7 @@
 
 ### Without Docker Desktop
 - To get started, you need to install [PHP Composer](https://getcomposer.org/).
-- `composer create-project balajidharma/basic-laravel-admin-panel admin-app`
+- `composer create-project Akhmad/basic-laravel-admin-panel admin-app`
 - `cd admin-app`
 - Create a new MYSQL database and update database details in `.env` file
 - `php artisan vendor:publish --tag=admin-core`
@@ -60,13 +60,13 @@ To change the Admin Prefix, change `prefix` on `config/admin.php` or add the `AD
 
 ## Also Try
 - [Build a Laravel admin panel from scratch](https://blog.devgenius.io/laravel-create-an-admin-panel-from-scratch-part-1-installation-8c11dae7e684)
-- [Laravel Vue Admin Panel](https://github.com/balajidharma/laravel-vue-admin-panel)
+- [Laravel Vue Admin Panel](https://github.com/Akhmad/laravel-vue-admin-panel)
 
 ## Screenshots
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/6037466/179876455-1fbe6c89-9afc-4002-879b-fe3fc6506e34.png" >
 	<br/><br/>
-	<img src="https://github.com/balajidharma/basic-laravel-admin-panel/assets/6037466/e6b99484-589c-4d44-8282-fb2a9936e712" >
+	<img src="https://github.com/BalajiDharma/basic-laravel-admin-panel/assets/6037466/e6b99484-589c-4d44-8282-fb2a9936e712" >
 	<br/><br/>
 	<img src="https://github.com/balajidharma/basic-laravel-admin-panel/assets/6037466/1a01f5f1-5fc5-4551-bf01-db345b4378da" >
 	<br/><br/>

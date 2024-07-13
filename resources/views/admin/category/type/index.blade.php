@@ -3,7 +3,7 @@
         {{ __('Category Types') }}
     </x-slot>
 
-    @can('adminCreate', \BalajiDharma\LaravelCategory\Models\CategoryType::class)
+    @can('adminCreate', \Akhmad\LaravelCategory\Models\CategoryType::class)
     <x-admin.add-link href="{{ route('admin.category.type.create') }}">
         {{ __('Add Category Type') }}
     </x-admin.add-link>
@@ -24,7 +24,7 @@
                         <x-admin.grid.th>
                             {{ __('Machine name') }}
                         </x-admin.grid.th>
-                        @canany(['adminUpdate', 'adminDelete'], new \BalajiDharma\LaravelCategory\Models\CategoryType)
+                        @canany(['adminUpdate', 'adminDelete'], new \Akhmad\LaravelCategory\Models\CategoryType)
                         <x-admin.grid.th>
                             {{ __('Actions') }}
                         </x-admin.grid.th>
@@ -53,7 +53,7 @@
                         <x-admin.grid.td>
                             <form action="{{ route('admin.category.type.destroy', $categoryType->id) }}" method="POST">
                                 <div>
-                                    @can('adminViewAny', \BalajiDharma\LaravelCategory\Models\Category::class)
+                                    @can('adminViewAny', \Akhmad\LaravelCategory\Models\Category::class)
                                     <a href="{{route('admin.category.type.item.index', $categoryType->id)}}" class="btn btn-square btn-ghost">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />

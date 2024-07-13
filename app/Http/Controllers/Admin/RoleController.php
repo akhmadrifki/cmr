@@ -5,10 +5,10 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Permission;
 use App\Models\Role;
-use BalajiDharma\LaravelAdminCore\Actions\Role\RoleCreateAction;
-use BalajiDharma\LaravelAdminCore\Actions\Role\RoleUpdateAction;
-use BalajiDharma\LaravelAdminCore\Data\Role\RoleCreateData;
-use BalajiDharma\LaravelAdminCore\Data\Role\RoleUpdateData;
+use Akhmad\LaravelAdminCore\Actions\Role\RoleCreateAction;
+use Akhmad\LaravelAdminCore\Actions\Role\RoleUpdateAction;
+use Akhmad\LaravelAdminCore\Data\Role\RoleCreateData;
+use Akhmad\LaravelAdminCore\Data\Role\RoleUpdateData;
 
 class RoleController extends Controller
 {
