@@ -3,11 +3,11 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Akhmad\LaravelAdminCore\Actions\Menu\MenuCreateAction;
-use Akhmad\LaravelAdminCore\Actions\Menu\MenuUpdateAction;
-use Akhmad\LaravelAdminCore\Data\Menu\MenuCreateData;
-use Akhmad\LaravelAdminCore\Data\Menu\MenuUpdateData;
-use Akhmad\LaravelMenu\Models\Menu;
+use BalajiDharma\LaravelAdminCore\Actions\Menu\MenuCreateAction;
+use BalajiDharma\LaravelAdminCore\Actions\Menu\MenuUpdateAction;
+use BalajiDharma\LaravelAdminCore\Data\Menu\MenuCreateData;
+use BalajiDharma\LaravelAdminCore\Data\Menu\MenuUpdateData;
+use BalajiDharma\LaravelMenu\Models\Menu;
 
 class MenuController extends Controller
 {

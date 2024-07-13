@@ -3,11 +3,11 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Akhmad\LaravelAdminCore\Actions\CategoryType\CategoryTypeCreateAction;
-use Akhmad\LaravelAdminCore\Actions\CategoryType\CategoryTypeUpdateAction;
-use Akhmad\LaravelAdminCore\Data\CategoryType\CategoryTypeCreateData;
-use Akhmad\LaravelAdminCore\Data\CategoryType\CategoryTypeUpdateData;
-use Akhmad\LaravelCategory\Models\CategoryType;
+use BalajiDharma\LaravelAdminCore\Actions\CategoryType\CategoryTypeCreateAction;
+use BalajiDharma\LaravelAdminCore\Actions\CategoryType\CategoryTypeUpdateAction;
+use BalajiDharma\LaravelAdminCore\Data\CategoryType\CategoryTypeCreateData;
+use BalajiDharma\LaravelAdminCore\Data\CategoryType\CategoryTypeUpdateData;
+use BalajiDharma\LaravelCategory\Models\CategoryType;
 
 class CategoryTypeController extends Controller
 {
@@ -72,7 +72,7 @@ class CategoryTypeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \Akhmad\LaravelCategory\Models\CategoryType  $categoryType
+     * @param  \BalajiDharma\LaravelCategory\Models\CategoryType  $categoryType
      * @return \Illuminate\View\View
      */
     public function edit(CategoryType $type)
@@ -85,7 +85,7 @@ class CategoryTypeController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Akhmad\LaravelCategory\Models\CategoryType  $categoryType
+     * @param  \BalajiDharma\LaravelCategory\Models\CategoryType  $categoryType
      * @return \Illuminate\Http\RedirectResponse
      */
     public function update(CategoryTypeUpdateData $data, CategoryType $type, CategoryTypeUpdateAction $categoryTypeUpdateAction)
@@ -100,7 +100,7 @@ class CategoryTypeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \Akhmad\LaravelCategory\Models\CategoryType  $categoryType
+     * @param  \BalajiDharma\LaravelCategory\Models\CategoryType  $categoryType
      * @return \Illuminate\Http\RedirectResponse
      */
     public function destroy(CategoryType $type)

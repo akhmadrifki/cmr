@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    @can('adminCreate', \Akhmad\LaravelCategory\Models\Category::class)
+    @can('adminCreate', \BalajiDharma\LaravelCategory\Models\Category::class)
     <x-admin.add-link href="{{ route('admin.category.type.item.create', $type->id) }}">
         {{ __('Add Category') }}
     </x-admin.add-link>
@@ -40,7 +40,7 @@
                         <x-admin.grid.th>
                             {{ __('Enabled') }}
                         </x-admin.grid.th>
-                        @canany(['adminUpdate', 'adminDelete'], new \Akhmad\LaravelCategory\Models\Category)
+                        @canany(['adminUpdate', 'adminDelete'], new \BalajiDharma\LaravelCategory\Models\Category)
                         <x-admin.grid.th>
                             {{ __('Actions') }}
                         </x-admin.grid.th>

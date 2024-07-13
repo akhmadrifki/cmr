@@ -4,10 +4,10 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Permission;
-use Akhmad\LaravelAdminCore\Actions\Permission\PermissionCreateAction;
-use Akhmad\LaravelAdminCore\Actions\Permission\PermissionUpdateAction;
-use Akhmad\LaravelAdminCore\Data\Permission\PermissionCreateData;
-use Akhmad\LaravelAdminCore\Data\Permission\PermissionUpdateData;
+use BalajiDharma\LaravelAdminCore\Actions\Permission\PermissionCreateAction;
+use BalajiDharma\LaravelAdminCore\Actions\Permission\PermissionUpdateAction;
+use BalajiDharma\LaravelAdminCore\Data\Permission\PermissionCreateData;
+use BalajiDharma\LaravelAdminCore\Data\Permission\PermissionUpdateData;
 
 class PermissionController extends Controller
 {

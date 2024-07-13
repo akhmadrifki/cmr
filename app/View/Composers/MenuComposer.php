@@ -2,7 +2,7 @@
 
 namespace App\View\Composers;
 
-use Akhmad\LaravelMenu\Models\Menu;
+use BalajiDharma\LaravelMenu\Models\Menu;
 use Illuminate\View\View;
 
 class MenuComposer
@@ -10,7 +10,7 @@ class MenuComposer
     /**
      * The user repository implementation.
      *
-     * @var \Akhmad\LaravelMenu\Models\Menu
+     * @var \BalajiDharma\LaravelMenu\Models\Menu
      */
     protected $menu;
 

@@ -4,12 +4,12 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Role;
-use Akhmad\LaravelAdminCore\Actions\MenuItem\MenuItemCreateAction;
-use Akhmad\LaravelAdminCore\Actions\MenuItem\MenuItemUpdateAction;
-use Akhmad\LaravelAdminCore\Data\MenuItem\MenuItemCreateData;
-use Akhmad\LaravelAdminCore\Data\MenuItem\MenuItemUpdateData;
-use Akhmad\LaravelMenu\Models\Menu;
-use Akhmad\LaravelMenu\Models\MenuItem;
+use BalajiDharma\LaravelAdminCore\Actions\MenuItem\MenuItemCreateAction;
+use BalajiDharma\LaravelAdminCore\Actions\MenuItem\MenuItemUpdateAction;
+use BalajiDharma\LaravelAdminCore\Data\MenuItem\MenuItemCreateData;
+use BalajiDharma\LaravelAdminCore\Data\MenuItem\MenuItemUpdateData;
+use BalajiDharma\LaravelMenu\Models\Menu;
+use BalajiDharma\LaravelMenu\Models\MenuItem;
 
 class MenuItemController extends Controller
 {
@@ -86,7 +86,7 @@ class MenuItemController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \Akhmad\LaravelMenu\Models\MenuItem  $menuItem
+     * @param  \BalajiDharma\LaravelMenu\Models\MenuItem  $menuItem
      * @return \Illuminate\Http\RedirectResponse
      */
     public function destroy(Menu $menu, MenuItem $item)

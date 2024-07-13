@@ -3,10 +3,10 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Akhmad\LaravelAdminCore\Actions\Media\MediaCreateAction;
-use Akhmad\LaravelAdminCore\Actions\Media\MediaUpdateAction;
-use Akhmad\LaravelAdminCore\Data\Media\MediaCreateData;
-use Akhmad\LaravelAdminCore\Data\Media\MediaUpdateData;
+use BalajiDharma\LaravelAdminCore\Actions\Media\MediaCreateAction;
+use BalajiDharma\LaravelAdminCore\Actions\Media\MediaUpdateAction;
+use BalajiDharma\LaravelAdminCore\Data\Media\MediaCreateData;
+use BalajiDharma\LaravelAdminCore\Data\Media\MediaUpdateData;
 use Plank\Mediable\Media;
 
 class MediaController extends Controller
